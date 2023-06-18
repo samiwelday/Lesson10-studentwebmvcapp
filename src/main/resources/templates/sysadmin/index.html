@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson10 WebApp Demo - Sys Admin</title>
+</head>
+<body>
+    <header th:replace="fragments/header :: header"></header>
+    <main>
+        <h1>System Administration</h1>
+        <nav>
+            <a href="/sysadmin/student/list">Students List</a> |
+            <a href="/sysadmin/student/searchview">Search Student</a> |
+<!--            <a href="/sysadmin/student/edit">Edit Student</a> |-->
+<!--            <a href="/sysadmin/student/delete">Delete Student</a> |-->
+<!--            <a href="/sysadmin/student/add">Add Student</a>-->
+        </nav>
+    </main><br>
+    <hr>
+    <div th:replace="fragments/footer :: footer"></div>
+
+</body>
+</html>
